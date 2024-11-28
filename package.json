@@ -1,0 +1,17 @@
+{
+  "name": "1_rag_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3020",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "next": "15.0.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
