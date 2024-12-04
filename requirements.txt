@@ -5,3 +5,4 @@ transformers
 ollama
 newspaper3k
 lxml_html_clean
+python-dotenv
