@@ -15,17 +15,25 @@
 
    ```bash
    git clone https://github.com/sookit/Stock-Chatbot.git
+   ```
 
 2. 프로젝트 디렉토리로 이동합니다.
-  ```bash
-  cd Stock-Chatbot
 
-3. requirements.txt 파일을 사용하여 필요한 의존성을 설치합니다.
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   cd Stock-Chatbot
+   ```
 
-### 애플리케이션 실행
-1. app.main.py 파일을 실행하여 애플리케이션을 시작합니다.
-  ```bash
-  python app/main.py
+3. `requirements.txt` 파일을 사용하여 필요한 의존성을 설치합니다.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 애플리케이션 실행
+
+1. `app/main.py` 파일을 실행하여 애플리케이션을 시작합니다.
+
+   ```bash
+   python app/main.py
+   ```
 
