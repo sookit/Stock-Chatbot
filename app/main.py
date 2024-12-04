@@ -8,7 +8,7 @@ import torch
 import gc
 from embeddings.embedder_gpu_all_data import Embedder
 from model.ollama_integration import OllamaLLM
-from data.naver_news_time_crawler import get_articles_info_with_time_limit, save_articles_to_json
+from data.articles_crawler import get_articles_info_with_time_limit, save_articles_to_json
 
 
 def clear_memory():
