@@ -88,7 +88,10 @@ def main():
             clear_memory()
 
             # LLM 프롬프트 생성
-            prompt = "Explain shortly, the following are relevant articles:\n"
+            prompt ="""Provide a concise and accurate response to the following stock-related question, using the most relevant information from the articles listed below. 
+            Focus on key points that directly address the question.
+            Relevant articles:"""
+            
             for idx in indices[0]:
                 prompt += f"- {articles_info[idx]['title']}: {articles_info[idx]['content'][:200]}...\n"
             prompt += f"\n{analysis_query}"
